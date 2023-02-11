@@ -1,0 +1,15 @@
+body {
+    padding-top: 10px;
+  }
+
+.btn-secondary{
+  color: black;
+  background-color: aqua;
+  border-color: blue;
+  border-radius: 12px;
+}
+
+.img-size{
+  height: 100%;
+  width: 100%;
+}
