@@ -13,3 +13,28 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.btn-decr{
+  color: white;
+  background-color: rgb(52, 101, 181);
+  border-color: rgb(52, 101, 181);
+  border-radius: 50%;
+}
+
+.col-7.food{
+  color: rgb(40, 75, 131);
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-incr{
+  color: white;
+  background-color: rgb(52, 101, 181);
+  border-color: rgb(52, 101, 181);
+  border-radius: 50%;
+}
+
+.btn-clear{
+  background-color: gray;
+  border-color: black;
+}

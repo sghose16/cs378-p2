@@ -44,18 +44,21 @@
            
             <!-- top part -->
             <div class="row"> 
-              <div class="col-7" style="text-align: left;">
+              <div class="col-7 food">
                 MAC AND CHEESE
               </div>
               <div class="col">
-                <em>$3</em>
+                <p>$<span id="macPrice">3</span></p>
               </div>
             </div> 
 
             <!-- order button -->
-            <div class="row"  style="text-align: left;"> 
-              <div class="col-5">
-                <button type="button" class="btn btn-secondary btn-sm ">ORDER</button>
+            <div class="row"  style="text-align: right; margin-left: 23%;"> 
+       
+              <div class="col-10">
+                <button type="button" class="btn btn-primary btn-sm btn-decr" id="macDecr">-</button>
+                <span class="count" id="macNum">0</span>
+                <button type="button" class="btn btn-primary btn-sm btn-incr " id="macIncr">+</button>
               </div>
             </div> 
 
@@ -64,7 +67,7 @@
       <!-- end of one menu item -->
 
       <!-- one menu item -->
-      <div class="row" style="margin-top: 5%;">
+      <div class="row" style="margin-top: 7%;">
         <div class="col">
             <img src="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl-500x500.jpg"  class="img-fluid" alt="pasta image">
         
@@ -74,18 +77,20 @@
          
           <!-- top part -->
           <div class="row"> 
-            <div class="col-7"  style="text-align: left;">
+            <div class="col-7 food">
              PASTA
             </div>
             <div class="col">
-              <em>$3</em>
+              <p>$<span id="pastaPrice">4</span></p>
             </div>
           </div> 
 
           <!-- order button -->
-          <div class="row"  style="text-align: left;"> 
-            <div class="col-5">
-              <button type="button" class="btn btn-secondary btn-sm ">ORDER</button>
+          <div class="row"  style="text-align: right; margin-left: 23%;"> 
+            <div class="col-10">
+              <button type="button" class="btn btn-primary btn-sm btn-decr" id="pastaDecr">-</button>
+              <span class="count" id="pastaNum">0</span>
+              <button type="button" class="btn btn-primary btn-sm btn-incr " id="pastaIncr">+</button>
             </div>
           </div> 
 
@@ -104,18 +109,21 @@
              
               <!-- top part -->
               <div class="row"> 
-                <div class="col-7"  style="text-align: left;">
-                 TACOS
+                <div class="col-7 food">
+                   TACOS
                 </div>
                 <div class="col">
-                  <em>$3</em>
+                  <p>$<span id="tacoPrice">3</span></p>
                 </div>
               </div> 
     
               <!-- order button -->
-              <div class="row"  style="text-align: left;"> 
-                <div class="col-5">
-                  <button type="button" class="btn btn-secondary btn-sm ">ORDER</button>
+              <div class="row"  style="text-align: right; margin-left: 23%;"> 
+
+                <div class="col-10">
+                  <button type="button" class="btn btn-primary btn-sm btn-decr" id="tacoDecr">-</button>
+                  <span class="count" id="tacoNum">0</span>
+                  <button type="button" class="btn btn-primary btn-sm btn-incr " id="tacoIncr">+</button>
                 </div>
               </div> 
     
@@ -134,18 +142,23 @@
          
           <!-- top part -->
           <div class="row"> 
-            <div class="col-7"  style="text-align: left;">
+            <div class="col-7 food">
              ENCHILADAS
             </div>
             <div class="col">
-              <em>$3</em>
+              <p>$<span id="enchPrice">5</span></p>
             </div>
           </div> 
 
           <!-- order button -->
-          <div class="row"  style="text-align: left;"> 
-            <div class="col-5">
+          <div class="row"  style="text-align: right; margin-left: 23%;"> 
+            <!-- <div class="col-5">
               <button type="button" class="btn btn-secondary btn-sm ">ORDER</button>
+            </div> -->
+            <div class="col-10">
+              <button type="button" class="btn btn-primary btn-sm btn-decr" id="enchDecr">-</button>
+              <span class="count" id="enchNum">0</span>
+              <button type="button" class="btn btn-primary btn-sm btn-incr " id="enchIncr">+</button>
             </div>
           </div> 
 
@@ -153,10 +166,20 @@
     </div>
     <!-- end of one menu item -->
      
-    
+    <div class="row"  style="margin-top: 5%;">
+      <div class="col">
+        <p>Total: $<span class="total" id="totalPrice">0</span></p> 
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary btn-sm btn-clear" id="clear">Clear All</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-primary btn-sm btn-order" id="order">Order </button>
+      </div>
+    </div>
 
     </div>
 
-
+    <script src="script.js"></script>
   </body>
 </html>
